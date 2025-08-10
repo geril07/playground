@@ -1,0 +1,27 @@
+/* typestream.css */
+.ts-caret {
+  display: inline-block;
+  margin-left: 1px;
+  animation: ts-blink 1s step-end infinite;
+}
+@keyframes ts-blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.ts-controls {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+.ts-controls > button {
+  padding: 4px 10px;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: transparent;
+  cursor: pointer;
+}
+.ts-controls > button:hover {
+  background: rgba(0, 0, 0, 0.04);
+}
