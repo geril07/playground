@@ -1,0 +1,1 @@
+https://learn-haskell.blog
