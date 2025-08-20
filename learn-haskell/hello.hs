@@ -18,9 +18,7 @@ replicate_ num a =
     else a : replicate_ (num - 1) a
 
 -- even :: Int -> Bool
--- even a = if a == 0 then True else odd (a - 1)
-
--- even a = a == 0 || odd (a - 1)
-
+-- even a = (a == 0) || odd (a - 1)
+--
 -- odd :: Int -> Bool
--- odd a = a == 1 || even (a - 1)
+-- odd a = (a /= 0) && even (a - 1)
